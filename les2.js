@@ -19,6 +19,7 @@ console.log(
     "Любимоё число: " + favoriteNumber + "," + 
     "Окончил университет: " + isGraduated + ".");
 }
+
 console.log('№2______________________________');
 {
     const New = 2024;
@@ -26,6 +27,7 @@ console.log('№2______________________________');
     const sum = New - Old;
     console.log ("Да, мне " + sum + " года.");
 }
+
 console.log('№3______________________________');
 {
     let a = undefined;
@@ -33,6 +35,7 @@ console.log('№3______________________________');
     const c = null;
     console.log(a + "||" + b + "||" + c)
 }
+
 console.log('№4*_____________________________');
 {
     const birth = new Date('06/20/2001');
