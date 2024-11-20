@@ -64,6 +64,3 @@ console.log("-------------------------------------------------");
         todayDate.setFullYear(2025);
         todayDate.setMonth(0);
     console.log("Изменение даты + 1 год и январь \n" + todayDate);
-
-    ('b' + 'a' + + 'a' + 'a').toLowerCase()
-    console.log(toLowerCase)
