@@ -1,24 +1,24 @@
 // присвоим переменной число 7.3 и дальще \/
-const FirstRandomNumber = 7.3;
+const firstRandomNumber = 7.3;
 // округляем в большую сторону = 8; округляем в меньшую сторону = 7; округляем в ближайшее целое число = 7
 console.log("Округление 7.3" + "\n в большую = " + 
-    Math.ceil(FirstRandomNumber) + " \n в меньшую = " + 
-    Math.floor(FirstRandomNumber) + "\n в целое = " + 
-    Math.round(FirstRandomNumber)); 
+    Math.ceil(firstRandomNumber) + " \n в меньшую = " + 
+    Math.floor(firstRandomNumber) + "\n в целое = " + 
+    Math.round(firstRandomNumber)); 
 
 //рандом
 console.log("-------------------------------------------------");
 {
-    const FirstRandomNumber = Math.floor(Math.random() * 101);//задаём рандомное число, от 0 до 100
-    const SecondRandomNumber = Math.floor(Math.random() * 101);
-    const LargestNumber = FirstRandomNumber > SecondRandomNumber ? FirstRandomNumber : SecondRandomNumber;//выводим какое из чисел больше
-    const DifferenceNumber = Math.abs(FirstRandomNumber - SecondRandomNumber);//ищем разницу между числами
+    const firstRandomNumber = Math.floor(Math.random() * 101);//задаём рандомное число, от 0 до 100
+    const secondRandomNumber = Math.floor(Math.random() * 101);
+    const largestNumber = firstRandomNumber > secondRandomNumber ? firstRandomNumber : secondRandomNumber;//выводим какое из чисел больше
+    const differenceNumber = Math.abs(firstRandomNumber - secondRandomNumber);//ищем разницу между числами
     
     console.log("Генерация случайных чисел" + 
-        "\n 1 рандомное число = " + FirstRandomNumber + 
-        "\n 2 рандомное число = " + SecondRandomNumber + 
-        "\n наибольшее из них: " + LargestNumber + 
-        "\n разница между ними = " + DifferenceNumber
+        "\n 1 рандомное число = " + firstRandomNumber + 
+        "\n 2 рандомное число = " + secondRandomNumber + 
+        "\n наибольшее из них: " + largestNumber + 
+        "\n разница между ними = " + differenceNumber
     );
 }
 
@@ -26,18 +26,18 @@ console.log("-------------------------------------------------");
 console.log("-------------------------------------------------");
 {
 
-    const FirstNumber = 4;
-    const SecondNumber = 3;
-    const sumOfTheNumbers = FirstNumber + SecondNumber;//Сумма
-    const productOfNumbers = FirstNumber * SecondNumber;//произведение
-    const dividingNumbers = FirstNumber / SecondNumber;//Часное
-    const constructionOfNumbers = Math.pow(FirstNumber, 2);//возведение в степень pow
-    const rootOfNumber = Math.sqrt(SecondNumber); //Квадратный корень из числа sqrt
+    const firstNumber = 4;
+    const secondNumber = 3;
+    const sumOfTheNumbers = firstNumber + secondNumber;//Сумма
+    const productOfNumbers = firstNumber * secondNumber;//произведение
+    const dividingNumbers = firstNumber / secondNumber;//Часное
+    const constructionOfNumbers = Math.pow(firstNumber, 2);//возведение в степень pow
+    const rootOfNumber = Math.sqrt(secondNumber); //Квадратный корень из числа sqrt
     console.log("Вычисления" + "\n Сумма = " + sumOfTheNumbers + 
         "\n Произведение = " + productOfNumbers + 
         "\n Часное = " + dividingNumbers + 
-        "\n Возведение " + FirstNumber + " во вторую степень = " + constructionOfNumbers +
-        "\n Квадратный корень из " + SecondNumber + " = " + rootOfNumber);
+        "\n Возведение " + firstNumber + " во вторую степень = " + constructionOfNumbers +
+        "\n Квадратный корень из " + secondNumber + " = " + rootOfNumber);
 }
 
 console.log("-------------------------------------------------");
@@ -64,3 +64,6 @@ console.log("-------------------------------------------------");
         todayDate.setFullYear(2025);
         todayDate.setMonth(0);
     console.log("Изменение даты + 1 год и январь \n" + todayDate);
+
+    ('b' + 'a' + + 'a' + 'a').toLowerCase()
+    console.log(toLowerCase)
