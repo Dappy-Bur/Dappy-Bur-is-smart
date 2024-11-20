@@ -1,7 +1,7 @@
 // присвоим переменной число 7.3 и дальще \/
-const Number = 7.3;
+const roundingNumber = 7.3;
 // округляем в большую сторону = 8; округляем в меньшую сторону = 7; округляем в ближайшее целое число = 7
-console.log("Округление 7.3" + "\n в большую = " +  Math.ceil(Number) + " \n в меньшую = " +  Math.floor(Number) + "\n в целое = " + Math.round(Number)); 
+console.log("Округление 7.3" + "\n в большую = " +  Math.ceil(roundingNumber) + " \n в меньшую = " +  Math.floor(roundingNumber) + "\n в целое = " + Math.round(roundingNumber)); 
 
 
 //рандом
